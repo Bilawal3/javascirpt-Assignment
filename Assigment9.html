@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        ////////////task1/////////////////////
+        var Student = [];
+
+        /////////////task2/////////////////////
+        var studentData = {
+            name: []
+        };
+
+        /////////////task3/////////////////////
+        var stringArray = ["Apple", "Banana", "Orange", "Mango",];
+
+        /////////////task4/////////////////////
+        var numberArray = [1, 2, 3, 4, 5];
+
+        /////////////task5/////////////////////
+        var booleanArray = [true, false, true, false];
+
+        /////////////task6/////////////////////
+        var mixedArray = ["bilawal", 123, "ali", true, 444, false];
+
+        /////////////task7/////////////////////
+        document.write("<h2>Task = 7</h2>")
+
+        var qualificationsArray = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil", "PhD"];
+
+
+        for (var i = 0; i < qualificationsArray.length; i++) {
+            document.write((`${i}`)  + qualificationsArray[i] + "<br>")
+        }
+
+        /////////////task8/////////////////////
+        document.write("<h2>Task = 8</h2>")
+
+        var studentNames = ["Bilawal", "Ali", "farhan"];
+        var scores = [320, 230, 480];
+
+
+        for (var i = 0; i < studentNames.length; i++) {
+            var percentage = (scores[i] / 500) * 100;
+            document.write(`Score of ${studentNames[i]} is ${scores[i]}. Percentage: ${percentage} % <br>`)
+        }
+
+        /////////////task10/////////////////////
+        document.write("<h2>Task = 10</h2>")
+
+        var studentArray = [320,230,480,120];
+        var studentArray1 = [120,480,230,320];
+
+        document.write(`Scores of Student : ${studentArray} <br>`);
+        document.write(`Ordered Scores of Student : ${studentArray1}`);
+
+
+        /////////////task11/////////////////////
+        document.write("<h2>Task = 11</h2>")
+
+        var cities = ["karachi","Lahore","Islamabad","Quetta","Peshawar"];
+        var selectedCities = cities.slice(1,3);
+
+        document.write(selectedCities, "<br>");
+
+        
+        /////////////task12/////////////////////
+        document.write("<h2>Task = 12</h2>")
+
+        var arr = ["This","is","my","cat <br>"];
+        var str = "This is my cat";
+
+        document.write(arr);
+        document.write(str)
+    </script>
+</body>
+
+</html>
